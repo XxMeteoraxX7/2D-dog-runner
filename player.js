@@ -36,13 +36,13 @@ export class Player {
         if (!this.onGround()) this.vy += this.weight;
         else this.vy = 0;
         //sprite
-        // if (this.frameTimer > this.frameInterval){
-        //     this.frameTimer = 0;  
+        if (this.frameTimer > this.frameInterval){
+            this.frameTimer = 0;  
             if (this.frameX < this.maxFrame) this.frameX++;
             else this.frameX = 0;
-        // } else {
-        //     this.frameTimer += deltaTime;
-        // }
+        } else {
+            this.frameTimer += deltaTime;
+        }
 
     }
     draw(context){
