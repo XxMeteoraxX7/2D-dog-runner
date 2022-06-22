@@ -18,6 +18,6 @@ body {
     max-height: 100%;
 }
 
-#player, #layer1, #layer2, #layer3, #layer4, #layer5 {
+#player, #layer1, #layer2, #layer3, #layer4, #layer5, #display {
     display: none;
 }
