@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: radial-gradient(grey, darkgrey);
+    background: radial-gradient(circle at 80%, #333, #333 50%, #eee 40%, #333 75%);
+    height: 1200px;
 }
 
 #canvas1 {
