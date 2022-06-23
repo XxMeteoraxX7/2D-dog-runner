@@ -57,3 +57,4 @@ export class Player {
         this.currentState.enter();
     }
 }
+
